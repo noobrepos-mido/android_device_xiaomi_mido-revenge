@@ -190,6 +190,9 @@ TARGET_USE_SDCLANG := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 23
+
 # RIL
 DISABLE_RILD_OEM_HOOK := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true

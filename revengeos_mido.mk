@@ -28,7 +28,7 @@ $(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Some Extra's
-REVENGEOS_BUILDTYPE := OFFICIAL
+REVENGEOS_BUILDTYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
